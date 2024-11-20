@@ -2,7 +2,6 @@
 import LikeButton from './like-button';
 
 function Header({ title }) {
-
     return (
             <h1>{title}</h1>
     )
@@ -21,7 +20,7 @@ function HomePage () {
             </ul>
             <LikeButton />
         </div>
-)
+    )
 }
 
 export default HomePage
